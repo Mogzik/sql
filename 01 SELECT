@@ -1,3 +1,13 @@
 SELECT  imie, nazwisko, stanowisko FROM pracownicy;
 
 SELECT  title, year, director FROM movies;
+
+SELECT  title, year, director FROM movies;
+
+SELECT * FROM movies;
+
+SELECT  title, year, director FROM movies;
+
+SELECT "type" FROM movies;
+
+SELECT DISTINCT director FROM movies;
