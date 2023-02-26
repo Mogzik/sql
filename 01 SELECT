@@ -1,1 +1,3 @@
 SELECT  imie, nazwisko, stanowisko FROM pracownicy;
+
+SELECT  title, year, director FROM movies;
