@@ -13,3 +13,21 @@ SELECT "type" FROM movies;
 SELECT DISTINCT director FROM movies;
 
 SELECT * FROM movies ORDER BY title;
+
+SELECT DISTINCT origin FROM famous_cats ORDER BY origin ASC;
+
+SELECT title, director FROM movies ORDER BY title ASC;
+
+SELECT * FROM movies ORDER BY year DESC;
+
+SELECT * FROM cell_phones ORDER BY brand ASC;
+
+SELECT name, tail_length FROM famous_cats ORDER BY tail_length DESC;
+
+SELECT * FROM famous_cats LIMIT 5;
+
+SELECT * FROM cell_phones ORDER BY price DESC LIMIT 10;
+
+SELECT title, rating FROM movies ORDER BY rating DESC LIMIT 10 OFFSET 10;
+
+SELECT title FROM movies ORDER BY rating ASC LIMIT 3;
