@@ -1,0 +1,9 @@
+CREATE TABLE nazwa tabeli
+(
+id INT PRIMARY KEY AUTO_INCREMENT,
+imie VARCHAR(20) NOT NULL,  
+nazwisko VARCHAR(20) NOT NULL, 
+placa DECIMAL(7,2) NOT NULL,
+stanowisko VARCHAR(20) NOT NULL,
+pesel CHAR(11) NOT NULL
+); 
